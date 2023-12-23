@@ -22,14 +22,9 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noImplicitReturns": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "noImplicitAny": true
   },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "build",
-    "scripts"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "scripts", "**/*.html"]
 }
